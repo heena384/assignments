@@ -1,0 +1,86 @@
+1. What is JavaScript, and where is it commonly used?
+-> Js is both scripting language and interpreted language. It is used to make Ui interactive
+
+2. What is the difference between var, let, and const?
+-> they are ways to declare variables :
+var - variable can be duplicate and updated
+let - cannot be duplicate but updated
+const - will remain constant, no update or duplication possible
+
+3.Create variables to store your name, age, and city and print them to the console.
+-> const name = "heena";
+const age = undefined;
+const city = "mumbai";
+console.log(name,age,city);
+
+4. What are the different primitive data types in JavaScript?
+-> Numeric, string, null, undefined, boolean
+
+5.Check the data type of different values using typeof
+console.log(typeof [1, 2, 3]);
+console.log(typeof true);
+console.log(typeof "hi");
+console.log(typeof null);
+console.log(typeof undefined);
+console.log(typeof 1.23);
+console.log(typeof { name: "heena" });
+console.log(typeof 12345678901234567890n);
+console.log(typeof Symbol("id"));
+
+6.What is the difference between null and undefined?
+Null values assigned intentionally and represent it doesn't have any value. while undefined is unassigned value.
+
+7.What is the difference between == and ===?
+== only compares the value but === compares value along with type
+
+8.What is the difference between != and !==?
+!= only check if value is different but !== checks value along data type
+
+9.Create two numbers and perform addition, subtraction, multiplication, and division
+const a = 10;
+const b = 20;
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+
+10.Find the remainder when one number is divided by another using %
+const a = 10;
+const b = 20;
+console.log(b % a);
+
+11.Swap the values of two variables.
+let a = 10;
+let b = 20;
+let temp;
+
+temp = a;
+a = b;
+b = temp;
+
+console.log(a, b);
+
+
+12. Convert a string "100" into a number.
+let str = "100";
+let num = Number(str);
+console.log(num, typeof num);
+
+13. Convert a number 100 into a string.
+let num = 100;
+let str = String(num);
+console.log(str, typeof str);
+
+14.Create a program that calculates the area of a rectangle
+const length = prompt("Enter the length");
+const width = prompt("Enter the width");
+
+const area = length * width;
+console.log("area is", area);
+
+15. Create a program that converts Celsius to Fahrenheit.
+const celsius = prompt("Enter celsius");
+console.log("celsius:", typeof celsius);
+const Fahrenheit = celsius * (9 / 5) + 32;
+console.log(celsius,"C ->",Fahrenheit,"F");
+
